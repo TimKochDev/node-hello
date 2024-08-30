@@ -14,8 +14,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Server running on http://localhost:${port}/`);
 });
-
-setTimeout(() => {
-  status = 'unhealthy';
-  console.log('Server status changed to unhealthy');
-}, 45000);
