@@ -16,6 +16,5 @@ server.listen(port, () => {
 });
 
 setTimeout(() => {
-  status = 'unhealthy';
-  console.log('Server status changed to unhealthy');
+  throw new Error('I crashed intentionally');
 }, 45000);
