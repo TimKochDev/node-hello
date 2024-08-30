@@ -1,5 +1,8 @@
 {
   "name": "node-hello",
+  "engines": {
+    "node": "14"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
